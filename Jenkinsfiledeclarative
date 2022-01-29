@@ -32,6 +32,7 @@ options {
         }
    }
    
+   /*
    //Do the build
    
    stage('Build'){
@@ -41,7 +42,7 @@ options {
    }
    }
 
-   /*  //execute sonarqube report
+    //execute sonarqube report
 	
    stage('Execute'){
    
