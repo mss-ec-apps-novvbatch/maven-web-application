@@ -41,7 +41,7 @@ options {
    }
    }
 
-    //execute sonarqube report
+   /*  //execute sonarqube report
 	
    stage('Execute'){
    
@@ -65,7 +65,7 @@ options {
     sh "scp -o  StrictHostKeyChecking=no target/maven-web-application.war ec2-user@3.108.193.26:/opt/apache-tomcat-9.0.58/webapps/"}
    }
   } 
-   
+   */
          }//stages closing
 		 
 		 post {
