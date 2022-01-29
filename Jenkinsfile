@@ -10,6 +10,7 @@
    stage ('build') {
    sh "${mavenHome}/bin/mvn clean package"
    }
+      /*
    stage ('execution') {
    sh "${mavenHome}/bin/mvn clean sonar:sonar"
    }
@@ -28,4 +29,5 @@
 
         Sudhakar reddy sura''', subject: 'buildover', to: 'sudhakarreddy7300@gmail.com'
    }
+   */
  }  
